@@ -1,0 +1,6 @@
+# move usx files from d:\usx to project             ;tasklist usx-exports-move-to-project.tasks
+combine usx and group                             ;tasklist simplehtmlscr-v2-xml.tasks
+get markup types                                  ;tasklist usx-marker-list.tasks
+count markers                                     ;tasklist usx-count-markup.tasks
+# make Toolbox db                                   ;tasklist bible-conc-make-toolbox-db.tasks
+

@@ -1,0 +1,2 @@
+# usx-marker-list.tasks
+get styles                              ;xslt marker-inventory-by-book "" "%projectpath%\xml\usx-chap-grp.xml" "%projectpath%\xml\markers.xml"

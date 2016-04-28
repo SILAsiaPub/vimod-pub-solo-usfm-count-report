@@ -1,0 +1,11 @@
+# edit the usx export path to suit you machine
+folder name fo usx collection           ;var usxfolder "usx"
+usx export path                         ;var usxexportpath "D:\usx\*.usx"
+usx project path                        ;var usxpath "%projectpath%\%usxfolder%"
+
+                                        
+# the following should not need editing
+files for collection                    ;var collectionfile "*.usx"
+group node                              ;var groupnodelist "book chapter"
+book order                              ;var bookorderfile "%pubpath%\resources\book-chaps.txt"
+                                        ;projectxslt

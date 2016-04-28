@@ -1,0 +1,27 @@
+# user_installed.tools
+# =============================================================================
+# Essential tools
+# ------------------------------------------------------------------------------
+# Saxon9 http://saxon.sourceforge.net
+saxon9=pub\tools\saxon\saxon9he.jar
+
+# =============================================================================
+# Tools found in the path
+# ------------------------------------------------------------------------------
+#
+# Consistent Changes for Windows
+# http://www.sil.org/computing/catalog/show_software.asp?id=4
+# ccw32=ccw32
+
+
+
+# =============================================================================
+# Tools not found in the path
+# ------------------------------------------------------------------------------
+# http://www.princexml.com
+prince=C:\Program Files (x86)\Prince\engine\bin\Prince.exe
+
+# http://www.java.com/en/download/
+# java=C:\Program Files\Java\jre8\bin\java.exe
+
+
