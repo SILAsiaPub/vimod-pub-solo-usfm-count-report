@@ -106,15 +106,8 @@ if "%menulist%" neq "utilities.menu" (
     if defined echoutilities echo        %utilityletter%. Utilities
 )
 echo.
-if "%newmenulist%" == "data\%projectsetupfolder%\project.menu" (
     echo        %exitletter%. Exit batch menu
-) else (
-    if "%newmenulist%" == "%commonmenufolder%\utilities.menu" (
-      echo        %exitletter%. Return to Groups menu
-    ) else (
-      echo        %exitletter%. Return to calling menu
-    )
-)
+
 echo.
 :: SET /P prompts for input and sets the variable to whatever the user types
 SET Choice=
