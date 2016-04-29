@@ -49,7 +49,9 @@
                         </xsl:element>
                         <xsl:element name="div">
                               <xsl:attribute name="style">
-                                    <xsl:text>clear:left;margin-right: 2em; height: 230mm</xsl:text>
+                                    <xsl:text>clear:left;margin-right: 2em; height:</xsl:text>
+                                    <xsl:value-of select="count(//book) * 7.5"/>
+                                    <xsl:text>mm</xsl:text>
                               </xsl:attribute>
                               <xsl:apply-templates select="*" mode="sum"/>
                         </xsl:element>
@@ -59,7 +61,7 @@
       </xsl:template>
       <xsl:template match="book" mode="sum">
             <xsl:element name="pre">
-                 <!-- <xsl:attribute name="style">
+                  <!-- <xsl:attribute name="style">
                         <xsl:text>margin-right: 2em</xsl:text>
                   </xsl:attribute> -->
                   <xsl:element name="a">
