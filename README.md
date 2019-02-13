@@ -1,6 +1,8 @@
 # vimod-pub-solo-usfm-count-report
 Generate a report of USFM markers used in Paratext project from the USX files
 
+## Any future development will be on [Xrunner](https://github.com/SILAsiaPub/xrunner)
+
 This project is set up to make a HTML report on USFM markers used per book. It makes use of the Vimod-Pub scripting menus and tasks. If you want to make multiple reports this is not the best way to do it.
 
 This is a Vimod-Pub solo project. If you want to make multiple Concordance, then it is best to use the Vimod-Pub project. http://projects.palaso.org/projects/vimod-pub
